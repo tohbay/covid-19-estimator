@@ -5,7 +5,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "lint": "eslint ./src/"
+    "lint": "eslint ./src/",
+    "jest": "jest --watchAll",
+    "test-coverage": "jest --coverage"
   },
   "dependencies": {
     "on-covid-19": "^0.1.3"
